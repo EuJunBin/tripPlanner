@@ -134,7 +134,8 @@ const Dashboard: React.FC<Props> = ({ initialPlan, preferences, onNewTrip }) => 
 
     // 3. Construct URL
     // Format: skyscanner.com/transport/flights/[origin]/[dest]/[YYMMDD]/[YYMMDD]
-    const url = `https://www.skyscanner.com/transport/flights/${origin}/${dest}${datePath}`;
+    // const url = `https://www.skyscanner.com/transport/flights/${origin}/${dest}${datePath}`;
+    const url = `https://www.skyscanner.com`;
     
     window.open(url, '_blank');
   };
