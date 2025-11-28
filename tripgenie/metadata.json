@@ -1,0 +1,5 @@
+{
+  "name": "TripGenie",
+  "description": "AI-Powered, No-Login Travel Generator that creates map-based itineraries in seconds.",
+  "requestFramePermissions": []
+}
