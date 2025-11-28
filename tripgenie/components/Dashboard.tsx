@@ -1,3 +1,4 @@
+// Test
 import React, { useState, useRef, useEffect } from 'react';
 import { TripPlan, UserPreferences, Activity } from '../types';
 import Itinerary from './Itinerary';
